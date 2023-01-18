@@ -102,6 +102,10 @@
   margin-bottom: 10px;
 }
 
+.card--container p {
+  padding-top: 5px;
+}
+
 .card--container-review {
   display: flex;
   flex-direction: row;
@@ -118,7 +122,9 @@
 }
 
 .card--container-type {
-  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  height: 45px;
 }
 
 .card--review-country {
@@ -131,4 +137,5 @@
 
 .card--container-cost {
   font-weight: 600;
+  margin-top: 2px;
 }
