@@ -5,16 +5,7 @@ import Navbar from "./components/Navbar";
 import data from "./data";
 
 function App() {
-  const cards = data.map((x) => (
-    <Card
-      img={x.coverImg}
-      rating={x.stats.rating}
-      reviewCount={x.stats.reviewCount}
-      country={x.location}
-      title={x.title}
-      price={x.price}
-    />
-  ));
+  const cards = data.map((obj) => <Card key={obj.id} obj={obj} />);
   return (
     <div className="container">
       <Navbar />

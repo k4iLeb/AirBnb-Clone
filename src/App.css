@@ -19,6 +19,7 @@
 /* *** NAV *** */
 
 .navbar {
+  border-radius: 10px 10px 0 0;
   height: 70px;
   width: 100%;
   position: relative;
@@ -67,7 +68,7 @@
   padding: 20px;
   display: flex;
   flex-direction: row;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .card {
