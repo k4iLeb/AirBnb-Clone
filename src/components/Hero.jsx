@@ -1,5 +1,5 @@
-import PhotoGrid from "../../public/images/photo-grid.png";
 import "../App.css";
+import PhotoGrid from "./images/photo-grid.png";
 
 export default function Hero() {
   return (
